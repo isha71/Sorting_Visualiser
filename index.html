@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+<!--    <meta http-equiv="X-UA-Compatible" content="IE=edge">-->
+<!--    <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+    <title>Sorting Visualizer</title>
+    <link rel="stylesheet" href="sorting.css">
+</head>
+<body>
+<div class="column_alignment" style="align-items: center">
+    <div class="mainHeading">
+        <h1>Sorting Algorithms Visualizer</h1>
+    </div>
+    <div class="row_alignment">
+        <a class="green_button" href="index.html" id="arrayBtn">New array</a>
+        <span class="fill"></span>
+        <button class="green_button" onclick="bubbleSort()">Bubble sort</button>
+        <button class="green_button" onclick="insertionSort()">Insertion sort</button>
+        <button class="green_button" onclick="mergeSorting()">Merge sort</button>
+        <button class="green_button" onclick="quickSorting()">Quick sort</button>
+        <button class="green_button" onclick="selectionSort()">Selection sort</button>
+    </div>
+    <div id="bars" class="barsContainer"></div>
+</div>
+
+
+<script src="js_files/sorting.js"></script>
+<script src="js_files/selection.js"></script>
+<script src="js_files/insertion.js"></script>
+<script src="js_files/bubble.js"></script>
+<script src="js_files/merge.js"></script>
+<script src="js_files/quick.js"></script>
+</body>
+</html>
