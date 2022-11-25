@@ -15,6 +15,17 @@ body {
     font-weight: 400;
 }
 
+p{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    
+}
+
 .green_button {
     background: #108101;
     font-size: 15px;
